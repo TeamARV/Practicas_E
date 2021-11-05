@@ -5,6 +5,8 @@ const Page1 = () => {
         <div>
 
             <span>pagina 1 </span>
+
+            
             
         </div>
     )
