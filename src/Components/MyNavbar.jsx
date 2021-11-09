@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../Images/NameSVG.svg"
+import "../Styles/MyNavbar.css"
 
 const MyNavbar = () => {
     return (
@@ -23,8 +24,8 @@ const MyNavbar = () => {
         </li>
       </ul>
       <span className="navbar-text">
-      <button type="button" className="btn btn-dark">Log In with <i className="fab fa-google"></i></button>
-      <i className="fas fa-user"></i>
+      <button type="button" className="btn btn-dark"> <i className="fas fa-user"></i> Log In with <i className="fab fa-google"></i></button>
+      
       </span>
     </div>
   </div>
