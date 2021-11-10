@@ -42,7 +42,7 @@ const Index = () => {
 <div className="row col-sm-12">
     
 <div className="col-sm-7 align-self-center ">
-            <MyCarousel img1="https://i.imgur.com/ak0Afh9.jpg" img2="https://i.imgur.com/4FtlyqU.jpg" img3="https://i.imgur.com/BIjdS7W.jpg"
+            <MyCarousel img1="https://i.imgur.com/ak0Afh9.jpg" img2="https://i.imgur.com/4FtlyqU.jpg" img3="https://i.imgur.com/lyKdwUi.jpg"
             img4="https://i.imgur.com/utKI3lz.jpg"/>
           
     </div>
@@ -50,7 +50,7 @@ const Index = () => {
 
     <MyCard info="<INSERT NAME> ayuda a los equipos a hacer avanzar el trabajo."/> <br /><br />
 
-    <MyCard info="Crece su trabajo en equipo. Administre proyectos, organice tareas y desarrolle el espíritu de equipo, todo en un solo lugar."/><br /><br />
+    <MyCard info="Maneje su trabajo en equipo. Administre proyectos, organice tareas y desarrolle el espíritu de equipo, todo en un solo lugar."/><br /><br />
 
     <MyCard info="Colabora, gestiona proyectos y alcanza nuevos picos de productividad. Desde los rascacielos hasta la oficina en casa, la forma en que trabaja su equipo es única: 
     consígalo todo con  <INSERT NAME./>"/>

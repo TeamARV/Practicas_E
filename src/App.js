@@ -18,7 +18,7 @@ import { UserContext } from "./Context/user";
 
 function App() {
 
-  const [GlobalData, setGlobalData] = useState({nombre:'minombre'});
+  const [GlobalData, setGlobalData] = useState([{nombre:'my first project',descripcion:'nada'}]);
   
   return (
   <div>

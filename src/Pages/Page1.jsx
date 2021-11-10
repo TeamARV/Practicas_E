@@ -1,5 +1,6 @@
 import React from 'react'
 import {useUser} from "../Context/user"
+import { Link } from 'react-router-dom';
 
 const Page1 = () => {
     
@@ -11,6 +12,7 @@ const Page1 = () => {
 
             <span>pagina 1 {GlobalData.apellido} </span>
             <span>pagina 1 {GlobalData.nombre} </span>
+            <Link to="/page2"> link para page 1</Link>
 
             
 
