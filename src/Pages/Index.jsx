@@ -30,7 +30,7 @@ const Index = () => {
  
 
     return (
-        <div>
+        <div className="bodyy">
 
 <div className="SliderImg">
 <div className="row col-sm-12">
@@ -40,7 +40,7 @@ const Index = () => {
             img4="https://i.imgur.com/utKI3lz.jpg"/>
           
     </div>
-    <span className=" der col-sm-5 h4 align-self-center justify-content-end" >
+    <span className="der col-sm-5 h4 align-self-center justify-content-end" >
 
     <MyCard info="<INSERT NAME> ayuda a los equipos a hacer avanzar el trabajo."/> <br /><br />
 
@@ -60,7 +60,7 @@ const Index = () => {
 </div>
 
 
-            <br />
+{/*             <br />
             <span>pagina Index  {variable1}</span> <br />
             <input value={variable1} onChange={(e)=>{ setvariable1(e.target.value)}} type="text" />
             <button onClick={funcionbutton}> soy un botón Clean</button>
@@ -70,7 +70,7 @@ const Index = () => {
             <input onChange={(e)=>{ setvariable3(e.target.value)}} type="number" />
             <span>la salida es {variable4}</span> 
 
-<i className="fas fa-gamepad"/>
+<i className="fas fa-gamepad"/> */}
         
             
         </div>
