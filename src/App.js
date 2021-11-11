@@ -1,6 +1,13 @@
 import Index from "./Pages/Index";
 import Page1 from "./Pages/Page1";
 import Page2 from "./Pages/Page2";
+import Page3 from "./Pages/Page3";
+import Page4 from "./Pages/Page4";
+import Page5 from "./Pages/Page5";
+import Page6 from "./Pages/Page6";
+import Page7 from "./Pages/Page7";
+import Page8 from "./Pages/Page8";
+
 import Plantilla from "./Layout/Plantilla";
 import Plantilla2 from "./Layout/Plantilla2";
 
@@ -35,17 +42,19 @@ function App() {
          
           <Route path="/" element = {<Plantilla2/>}>
           <Route path="Page2" element = {<Page2/>}/> 
+          <Route path="Page3" element = {<Page3/>}/> 
+          <Route path="Page4" element = {<Page4/>}/> 
+          <Route path="Page5" element = {<Page5/>}/> 
+          <Route path="Page6" element = {<Page6/>}/> 
+          <Route path="Page7" element = {<Page7/>}/> 
+          <Route path="Page8" element = {<Page8/>}/> 
           </Route>
 
         </Routes>
       </Router>
 
-
       </UserContext.Provider>
-     
 
-    
-    
   </div>
   );
 }

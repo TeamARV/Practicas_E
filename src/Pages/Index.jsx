@@ -4,13 +4,7 @@ import MyCarousel from "../Components/MyCarousel"
 import MyCard from '../Components/MyCard'
 
 
-
-
-
-
-
-
-
+/* MODULO GESTION USUARIOS LADING PAGE */
 
 
 const Index = () => {

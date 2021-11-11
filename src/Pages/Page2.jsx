@@ -3,6 +3,8 @@ import { useState,useEffect } from 'react'
 import {useUser} from "../Context/user"
 import { Link } from 'react-router-dom'
 
+/* MODULO GESTION USUARIOS login */
+
 const Page2 = () => {
 
 
@@ -26,6 +28,7 @@ const Page2 = () => {
 
     return (
         <div>
+         <span>/* MODULO GESTION USUARIOS login */</span>
 
           <span>el usuario tendra : nombre completo , identificacion , correo, contraseña, rol , estado </span><br />
           <span>proyecto : id unica , nombre del proyecto, objetivos generales, objetivos especificos, presupuesto, fecha de inicio y terminacion, lider, estado(a o i) , fase (iniciado , proceso , terminado)
