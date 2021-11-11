@@ -11,15 +11,12 @@ const Page1 = () => {
 
     return (
         <div>
-
-            <span>/* MODULO GESTION USUARIOS Registro */</span>
-            <span>pagina 1 {GlobalData.apellido} </span>
-            <span>pagina 1 {GlobalData.nombre} </span>
-            <Link to="/page2"> link para page 1</Link>
-
-            
-
-            
+<div className="bodyy">
+            <span>/* MODULO GESTION USUARIOS login */</span>
+     
+            <Link to="/"> link para index</Link>
+            </div>
+             
             
         </div>
     )

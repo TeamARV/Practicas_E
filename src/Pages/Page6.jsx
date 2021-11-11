@@ -7,10 +7,10 @@ const Page6 = () => {
 
 
     return (
-        <div>
+        <div className="bodyy">
 
             <span> soy la pagina 6</span>
-            <Link to="/page1"> link para page 1</Link>
+            <Link to="/"> link para Index</Link>
      
             
         </div>

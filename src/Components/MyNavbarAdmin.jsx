@@ -2,10 +2,9 @@ import React from 'react'
 import { Link    } from 'react-router-dom'
 
 import logo from "../Images/NameSVG.svg"
-import Page2 from '../Pages/Page2old'
 import "../Styles/MyNavbar.css"
 
-const MyNavbar = () => {
+const MyNavbarAdmin = () => {
 
   
  
@@ -19,10 +18,15 @@ const MyNavbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <li className="nav-item">
+              <span className="nav-link active"> <i class="fas fa-sign-in-alt"/>  Modulo Gestión Usuarios - Estado de usuarios</span>
+            </li>
+        <li className="nav-item">
+          <a className="nav-link"> ADMIN </a>
+        </li>
       </ul>
       <span className="navbar-text">
-      <Link to="/page2"><button type="button" className="btn btn-dark"  onClick = { ()=> console.log("check in") }> <i class="fas fa-user-edit"></i> Check In</button></Link>
-      <Link to="/page1"><button type="button" className="btn btn-dark"  onClick = { ()=>  console.log("log in")}> <i className="fas fa-user"></i> Log In  </button></Link>
+            <Link to="/"> <a className="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> HOME </a></Link>
       </span>
     </div>
   </div>
@@ -32,4 +36,4 @@ const MyNavbar = () => {
     )
 }
 
-export default MyNavbar
+export default MyNavbarAdmin

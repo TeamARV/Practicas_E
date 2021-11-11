@@ -8,10 +8,10 @@ const Page7 = () => {
 
 
     return (
-        <div>
+        <div className="bodyy">
 
             <span> soy la pagina 7</span>
-            <Link to="/page1"> link para page 1</Link>
+            <Link to="/"> link para Index</Link>
      
             
         </div>

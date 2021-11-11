@@ -1,6 +1,7 @@
 
 
 .SliderImg .img-fluid{
+    margin-top: 3.3%;
     border-radius: 6% ;
     padding: 1%;
     border-bottom-right-radius: 15%;
@@ -27,7 +28,7 @@ overflow:hidden;
 }
 
 .bodyy{
-    background-image: url("https://i.imgur.com/Rxgv3pp.jpg");
+    background-image: url("https://i.imgur.com/7pLwZQr.jpg");
     /* background-image: url("https://i.imgur.com/fTq2Rvy.jpg"); */
     background-repeat:no-repeat;
     background-attachment: fixed;

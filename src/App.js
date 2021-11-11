@@ -10,6 +10,8 @@ import Page8 from "./Pages/Page8";
 
 import Plantilla from "./Layout/Plantilla";
 import Plantilla2 from "./Layout/Plantilla2";
+import PlantillaLogin from "./Layout/PlantillaLogin";
+import PlantillaAdmin from "./Layout/PlantillaAdmin";
 
 
 
@@ -37,12 +39,21 @@ function App() {
          
           <Route path="/" element = {<Plantilla/>}>
           <Route path="/" element = {<Index/>}/>
+          </Route>
+
+          <Route path="/" element = {<PlantillaLogin text="Modulo Gestión Usuarios LOG IN"/>}>
           <Route path="Page1" element = {<Page1/>}/>
           </Route>
-         
+
+          <Route path="/" element = {<PlantillaLogin text="Modulo Gestión Usuarios CHECK IN"/>}>
+          <Route path="Page2" element = {<Page2/>}/>
+          </Route>
+
+          <Route path="/" element = {<PlantillaAdmin/>}>
+          <Route path="Page3" element = {<Page3/>}/>
+          </Route>
+      
           <Route path="/" element = {<Plantilla2/>}>
-          <Route path="Page2" element = {<Page2/>}/> 
-          <Route path="Page3" element = {<Page3/>}/> 
           <Route path="Page4" element = {<Page4/>}/> 
           <Route path="Page5" element = {<Page5/>}/> 
           <Route path="Page6" element = {<Page6/>}/> 

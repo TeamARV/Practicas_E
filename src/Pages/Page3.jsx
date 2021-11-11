@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-/* MODULO GESTION USUARIOS Perfil */
+/* MODULO GESTION USUARIOS ADMIN  podra cambiar el estado de los usuarios registrados   (pendiente - autorizado - no autorizado) */
 
 const Page3 = () => {
 
 
     return (
-        <div>
+        <div className="bodyy">
 
-            <span> soy la pagina 3</span>
-            <Link to="/page1"> link para page 1</Link>
+            <br /><br /><span> soy la pagina 3</span>
+            <span>MODULO GESTION USUARIOS ADMIN  podra cambiar el estado de los usuarios registrados   (pendiente - autorizado - no autorizado)</span>
 
 
      
