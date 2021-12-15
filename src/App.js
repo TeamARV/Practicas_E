@@ -29,7 +29,7 @@ import { LoginContext } from "./Context/loginContex";
 import {ApolloClient, ApolloProvider, createHttpLink , InMemoryCache } from "@apollo/client";
 import { setContext } from '@apollo/client/link/context';
 
-const httpLink = createHttpLink({uri:"http://localhost:3001/graphql"})
+const httpLink = createHttpLink({uri:"https://backtest123x.herokuapp.com/graphql"})
 
 const authLink = setContext((_, { headers }) => {
   // get the authentication token from local storage if it exists

@@ -14,6 +14,8 @@ const [editarObjetivo, { data: dataMutation, loading }] = useMutation(
     }
   );
 
+  statck:set container --app name:D  // for deploy remember
+
   revisar el repo de daniel
    https://github.com/Ciclo-4-Mision-TIC-UdeA
    https://github.com/danyel117
