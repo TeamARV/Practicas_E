@@ -1,0 +1,12 @@
+version: '3.9'  # optional since v1.27.0
+
+services:
+  frontinsertname:
+      build: 
+        dockerfile: Dockerfile
+        #context: './testrapido'
+      ports:
+      - 3000:3000
+      volumes:
+      - .:/usr/src
+      - /usr/src/node_modules  # para ingnorar los nodemodules
